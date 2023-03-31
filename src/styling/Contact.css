@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+.contact-container{
+   position: relative;
+   height: 100vh;
+   background-color: #fff;
+   font-family: 'Satisfy', cursive;
+}
+   
+.contact-heading{
+   position: absolute;
+   left: 44%;
+   font-size: 1.5rem;
+   top: 5%;
+
+}
+.contact-heading h1 span{
+   color: red;
+
+}
+.contents-contact{
+   position: absolute;
+  
+   position: absolute;
+   top:30%;
+   left: 1%;
+   display: flex;
+   color: #000;
+   gap: 220px;
+   
+
+}
+.box-contact {
+   display:inline-block ;
+  width: 470px;
+  height: 200px;
+  margin: 20px;
+  padding: 20px;
+  font-size: 15px;
+  /* border: 2px solid red; */
+ 
+  
+      
+}
+.box-contact h2{
+   /* text-align: center; */
+  
+   color: black;
+  
+}
+.box-contact h2 i{
+    color: red;
+    
+}
+.box-contact  i a{
+   color: black;
+   font-family: 'Satisfy', cursive;
+}
+.box-contact  i a:hover{
+   color: red;
+}
+.box-contact i{
+   text-align: center;
+    position: relative;
+    left: 54%;
+    top: 16%;
+   
+  
+   
+
+  
+}
+.footer{
+   background-color: #fff;
+   height: 30px;
+   width: 100%;
+   position: absolute;
+   top: 90%;
+}
+.phone{
+   position: absolute;
+   left: 80%;
+}
+.footer h1{
+   color: red;
+   font-size: 20px;
+   text-align: center;
+}
+.timing-box{
+   position: relative;
+   top: 35%;
+   left: 41%;
+   /* border: 2px solid red; */
+   
+   width: 230px;
+   height: 100px;
+   font-size: 15px;
+}
+.timing-box h2 i{
+   color: red;
+}
+.timing-box p{
+   text-align: center;
+}
+.arrow  a{
+   position: absolute;
+   color: #000;
+   top: 90%;
+   left: 95%;
+   font-size: 30px;
+   
+}
+.arrow a:hover{
+   color: red;
+}
+

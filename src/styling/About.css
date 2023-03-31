@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+/* font-family: 'Satisfy', cursive; */
+.about-container { 
+   font-family: 'Satisfy', cursive; 
+   background-color: #fff;
+   height: 100vh;
+   position: relative;
+}
+/* .img{
+   background-image:url(../Image/logo.jpg);
+   height: 100vh;
+   overflow:hidden;
+   background-repeat: no-repeat;
+   
+} */
+
+.about-content h1 {
+font-size: 3rem;
+font-family: 'Satisfy', cursive; 
+color: #000;
+text-align: center;
+position: absolute;
+top: 2%;
+left: 40%;
+
+}
+.about-content h1 span{
+   color: red;
+}
+.para p{
+   position: absolute;
+   top: 18%;
+   color: #000;
+   width: 700px;
+  left: 25%;
+  line-height: 30px;
+  word-spacing: 5px;
+}
+.environment{
+   position: absolute;
+   top: 70%;
+   left: 40%;
+  
+   
+}
+.about-below{
+   position: absolute;
+   top: 75%;
+   left: 47%;
+}
+.about-below h2{
+   font-size:1.5rem;
+   color: #000;
+   word-spacing: 5px;
+
+}
+.about-below h2 span{
+   color: red;
+}
+.last p{
+   position: absolute;
+   top: 85%;
+   left: 30%;
+   width: 600px;
+   font-size: 1.5rem;
+   word-spacing: 5px;
+}
+/* .trainer-block h2{
+   color: #000;
+   position: absolute;
+   top: 92%;
+   left: 45%;
+}
+.trainer-block h2 span{
+   color: red;
+}
+.trainer img{
+   position: absolute;
+   top: 95%;
+   height: 200px;
+   width: 200px;
+   left: 45%;
+
+} */
+
+.arrow  a{
+   position: absolute;
+   color: #000;
+   top: 90%;
+   left: 95%;
+   font-size: 30px;
+   
+}
+.arrow a:hover{
+   color: red;
+}

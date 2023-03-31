@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+.services-container {
+   font-family: 'Satisfy', cursive;
+   position: relative; 
+   height: 170vh;
+   background-color: black;
+}
+
+.trainer h2{
+   position: absolute;
+   top: 3%;
+   left: 40%;
+   color: #fff;
+   font-family: 'Satisfy', cursive;
+   font-size: 3rem;
+   word-spacing: 5px;
+
+}
+.trainer h2 span {
+   color: red;
+   word-spacing: 5px;
+
+}
+.head-trainer img {
+   height: 300px;
+   width: 300px;
+   position: absolute;
+   left: 40%;
+   top: 15%;
+   border-radius: 50%;
+   border: 2px solid red;
+
+}
+.about-head {
+   position: absolute;
+   top:50%;
+   left: 25%;
+   width: 700px;
+   height: 200px;
+
+}
+
+.about-head p{
+   color: #fff;
+   word-spacing: 8px;
+  
+}
+.heading-service{
+   position: absolute;
+   top: 72%;
+   left: 44%;
+   color: #fff;
+
+}
+
+
+.heading-service h2 span{
+   color: red;
+
+}
+.service-given{
+   position: absolute;
+   top:76%;
+   left: 3.5%;
+   display: flex;
+   /* border: 2px solid red; */
+   color: #fff;
+
+
+}
+.cards-1{
+   display:inline-block ;
+   
+  
+  width: 170px;
+  height: 160px;
+  margin: 20px;
+  padding: 20px;
+   background-color:#fff;
+
+   border-radius: 50%;
+   border: 2px solid red;
+   
+}
+
+.cards-1:hover{
+   transform: translateX(25px);
+}
+.cards-1 img {
+   height: 130px;
+   width: 170px;
+   position: absolute;
+   border-radius: 50%;
+   
+   
+   
+
+
+}
+.cards-1 h3{
+   color: red;
+   text-align: center;
+}
+
+.arrow-up  a{
+   position: absolute;
+   color: white;
+   top: 95%;
+   left: 95%;
+   font-size: 30px;
+   
+}
+.arrow-up a:hover{
+   color: red;
+}

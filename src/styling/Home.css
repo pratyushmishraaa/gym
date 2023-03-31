@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+
+*{
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   list-style: none;
+   
+}
+
+.main-container {
+   height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-image: url("../Image/pic8.jpg");
+  background-color: black;
+   
+}
+.navbar{
+   width: 100%;
+   font-family: 'Satisfy', cursive;
+   /* position: relative; */
+   top: 5%;
+}
+.logo h2{
+   color: white;
+   position: absolute;
+   top: 3%;
+   left: 10%;
+   font-size: 1.5rem;
+   
+}
+.logo h2 span{
+   color: red;
+}
+.nav-links ul{
+   float: right;
+   display: flex;
+   position: absolute;
+   left: 70%;
+   top: 3%; 
+   gap: 3rem;
+}
+.nav-links ul a {
+   float: right;
+   color: white;
+   font-size: 1.5rem;
+     
+}
+.nav-links .active{
+  
+   color: red;
+}
+.nav-links ul a:hover{
+   text-decoration: underline red;
+}
+.mid-content{
+   position: absolute;
+   top: 35%;
+   left: 16%;
+}
+.mid-content h1{
+   font-size: 7rem;
+   color: white;
+   font-family: 'Satisfy', cursive;
+}
+.mid-content2{
+   font-size: 1.5rem;
+   position: absolute;
+   top: 60%;
+   left: 36%;
+   font-family: 'Satisfy', cursive;
+}
+.mid-content2 h2{
+   color: #f40505;
+}
+.mid-content2 a:hover{
+   text-decoration: underline red;
+   cursor: pointer;
+}
+
+.change_content:after{
+   content: "";
+   animation: changetext 4s infinite linear;
+ 
+   color: red;
+}
+@keyframes changetext {
+   0%{
+      content:"The Firm";
+   }
+   
+   100%{
+      content:"Your Gym";
+   }
+}
+.Social-box {
+   position: absolute;
+   left: 3%;
+   top: 30%;
+   display: grid;
+   gap: 34px;
+   font-size:1.7rem;
+   
+}
+.Social-box a{
+   color: white;
+}
+.instagram:hover{
+   color: #d62976;
+}
+.facebook:hover{
+   color:#3b5998;
+}
+.twitter:hover{
+   color: #00acee;
+}
+.email:hover{
+   color:#BB001B ;
+}
+
+
+
+
+
+
